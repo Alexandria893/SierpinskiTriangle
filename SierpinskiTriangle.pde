@@ -17,10 +17,11 @@ public void mouseDragged()//optional
 public void sierpinski(int x, int y, int len) 
 {
 
-    triangle(width,0,width,width,width/2,width);
+    triangle(0,width,width,width,width/2,0);
 
-	/*if(len <=l)
+    /*if(len <=l)
 	{
-	}	*/
+	}	
+	*/
 
 }
