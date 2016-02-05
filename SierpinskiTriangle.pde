@@ -1,4 +1,5 @@
-int l = 20;
+//for length
+int le = 20;
 
 public void setup()
 {
@@ -19,9 +20,13 @@ public void sierpinski(int x, int y, int len)
 
     triangle(0,width,width,width,width/2,0);
 
-    /*if(len <=l)
+   if(len <=le)
 	{
+	  sierpinski(x,y,len/2);
+	  sierpinski(x+len/2,y,len/2);
+	  sierpinski(x+len/4,y/2,len/2);
+
 	}	
-	*/
+	
 
 }
